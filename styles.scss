@@ -14,26 +14,44 @@
     width: 412px;
     background-color: hsl(213, 19%, 18%);
     transform: translate(-50%, -50%);
+    border-radius: 30px;
+}
+
+.star-icon{
+    margin-top: 3rem;
+    margin-left: 3rem;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    padding-bottom: 0;
 }
 
 .overall-heading{
     color: hsl(0, 0%, 100%);
     font-weight: 400;
+    margin-left: 2rem;
+    font-size: 28px;
+    word-spacing: 2px;
+    margin-bottom: 0;
 }
 
 .first-text{
     color: hsl(217, 12%, 63%);
-    font-size: 12.5px;
+    font-size: 15px;
     font-weight: 400;
+    margin-left: 2rem;
+    line-height: 1.6;
+    padding-right: 20px;
+    padding-bottom: 10px;
 }
 
 .buttons{
     transition: all .4s ease-in-out;
     color: hsl(217, 12%, 63%);
     text-decoration: none;
-    display: inline-block;
     text-align: center;
     padding-left: 20px;
+    // padding-top: 10px;
 
     .btn1{
         background-color: hsl(216, 12%, 54%);
