@@ -57,12 +57,14 @@ body{
     text-decoration: none;
     text-align: center;
     padding-left: 20px;
+    justify-content: center;
+    align-items: center;
 
     .btn1{
-        background-color: rgb(38, 46, 56);
+        background-color: rgb(38, 47, 56);
         color: rgb(113, 116, 126);
         padding: 10px;
-        margin-right: 15px;
+        margin-right: 18px;
         border-radius: 100%;
         height: 50px;
         width: 50px;
@@ -76,7 +78,7 @@ body{
         color: rgb(113, 116, 126);
         border-radius: 100%;
         padding: 10px;
-        margin-right: 15px;
+        margin-right: 18px;
         height: 50px;
         width: 50px;
         font-size: 16px;
@@ -90,7 +92,7 @@ body{
         color: rgb(113, 116, 126);
         border-radius: 100%;
         padding: 10px;
-        margin-right: 10px;
+        margin-right: 18px;
         height: 50px;
         width: 50px;
         font-size: 16px;
@@ -103,7 +105,7 @@ body{
         color: rgb(113, 116, 126);
         border-radius: 100%;
         padding: 10px;
-        margin-right: 10px;
+        margin-right: 18px;
         height: 50px;
         width: 50px;
         font-size: 16px;
@@ -116,7 +118,7 @@ body{
         color: rgb(113, 116, 126);
         border-radius: 100%;
         padding: 10px;
-        margin-right: 10px;
+        margin-right: 15px;
         height: 50px;
         width: 50px;
         font-size: 16px;
@@ -128,11 +130,11 @@ body{
 .submit-button{
     background-color: hsl(25, 97%, 53%);
     color: hsl(0, 0%, 100%);
-    width: 82.5%;
+    width: 82.7%;
     display: flex;
     justify-content: center;
     margin: auto;
-    margin-top: 3rem;
+    margin-top: 2.1rem;
     padding-top: 15px;
     padding-bottom: 11px;
     margin-left: 2rem;
