@@ -18,13 +18,13 @@ body{
 }
 
 .star-icon{
-    margin-top: 2.1rem;
-    margin-left: 2.1rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
     border-radius: 50%;
     width: 45px;
     height: 45px;
-    padding-bottom: 0;
-    margin-bottom: 2.2rem;
+    padding: 1.5px;
+    margin-bottom: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,18 +56,21 @@ body{
     transition: all .4s ease-in-out;
     text-decoration: none;
     text-align: center;
-    padding-left: 20px;
+    padding-top: 1px;
+    padding-left: 1rem;
     justify-content: center;
     align-items: center;
+    // text-align: center;
 
     .btn1{
         background-color: rgb(38, 47, 56);
         color: rgb(113, 116, 126);
-        padding: 10px;
-        margin-right: 18px;
+        padding: 18px;
+        margin-right: 19px;
         border-radius: 100%;
         height: 50px;
         width: 50px;
+        text-align: center;
         font-size: 16px;
         font-weight: 100;
         border: none;
@@ -77,10 +80,11 @@ body{
         background-color: rgb(38, 46, 56);
         color: rgb(113, 116, 126);
         border-radius: 100%;
-        padding: 10px;
-        margin-right: 18px;
+        padding: 18px;
+        margin-right: 19px;
         height: 50px;
         width: 50px;
+        text-align: center;
         font-size: 16px;
         font-weight: 100;
         border: none;
@@ -91,8 +95,8 @@ body{
         background-color: rgb(38, 46, 56);
         color: rgb(113, 116, 126);
         border-radius: 100%;
-        padding: 10px;
-        margin-right: 18px;
+        padding: 18px;
+        margin-right: 19px;
         height: 50px;
         width: 50px;
         font-size: 16px;
@@ -104,8 +108,8 @@ body{
         background-color: rgb(38, 46, 56);
         color: rgb(113, 116, 126);
         border-radius: 100%;
-        padding: 10px;
-        margin-right: 18px;
+        padding: 18px;
+        margin-right: 19px;
         height: 50px;
         width: 50px;
         font-size: 16px;
@@ -117,8 +121,8 @@ body{
         background-color: rgb(38, 46, 56);
         color: rgb(113, 116, 126);
         border-radius: 100%;
-        padding: 10px;
-        margin-right: 15px;
+        padding: 18px;
+        margin-right: 24px;
         height: 50px;
         width: 50px;
         font-size: 16px;
@@ -136,26 +140,14 @@ body{
     margin: auto;
     margin-top: 2.1rem;
     padding-top: 15px;
-    padding-bottom: 11px;
+    padding-bottom: 11.2px;
     margin-left: 2rem;
     margin-bottom: 2.5rem;
     border-radius: 25px;
     font-size: 15px;
     letter-spacing: 2.3px;
+    cursor: pointer;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .footer{
     position: absolute;

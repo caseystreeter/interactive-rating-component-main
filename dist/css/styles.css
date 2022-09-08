@@ -19,13 +19,13 @@ body {
 }
 
 .star-icon {
-  margin-top: 2.1rem;
-  margin-left: 2.1rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
   border-radius: 50%;
   width: 45px;
   height: 45px;
-  padding-bottom: 0;
-  margin-bottom: 2.2rem;
+  padding: 1.5px;
+  margin-bottom: 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -64,7 +64,8 @@ body {
   transition: all .4s ease-in-out;
   text-decoration: none;
   text-align: center;
-  padding-left: 20px;
+  padding-top: 1px;
+  padding-left: 1rem;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -76,11 +77,12 @@ body {
 .buttons .btn1 {
   background-color: #262f38;
   color: #71747e;
-  padding: 10px;
-  margin-right: 18px;
+  padding: 18px;
+  margin-right: 19px;
   border-radius: 100%;
   height: 50px;
   width: 50px;
+  text-align: center;
   font-size: 16px;
   font-weight: 100;
   border: none;
@@ -90,10 +92,11 @@ body {
   background-color: #262e38;
   color: #71747e;
   border-radius: 100%;
-  padding: 10px;
-  margin-right: 18px;
+  padding: 18px;
+  margin-right: 19px;
   height: 50px;
   width: 50px;
+  text-align: center;
   font-size: 16px;
   font-weight: 100;
   border: none;
@@ -103,8 +106,8 @@ body {
   background-color: #262e38;
   color: #71747e;
   border-radius: 100%;
-  padding: 10px;
-  margin-right: 18px;
+  padding: 18px;
+  margin-right: 19px;
   height: 50px;
   width: 50px;
   font-size: 16px;
@@ -116,8 +119,8 @@ body {
   background-color: #262e38;
   color: #71747e;
   border-radius: 100%;
-  padding: 10px;
-  margin-right: 18px;
+  padding: 18px;
+  margin-right: 19px;
   height: 50px;
   width: 50px;
   font-size: 16px;
@@ -129,8 +132,8 @@ body {
   background-color: #262e38;
   color: #71747e;
   border-radius: 100%;
-  padding: 10px;
-  margin-right: 15px;
+  padding: 18px;
+  margin-right: 24px;
   height: 50px;
   width: 50px;
   font-size: 16px;
@@ -151,12 +154,13 @@ body {
   margin: auto;
   margin-top: 2.1rem;
   padding-top: 15px;
-  padding-bottom: 11px;
+  padding-bottom: 11.2px;
   margin-left: 2rem;
   margin-bottom: 2.5rem;
   border-radius: 25px;
   font-size: 15px;
   letter-spacing: 2.3px;
+  cursor: pointer;
 }
 
 .footer {
